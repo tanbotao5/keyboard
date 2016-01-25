@@ -641,5 +641,5 @@ while True:
     pass
 ser.close()
 ser2.close()
-
+#
         
