@@ -6,6 +6,7 @@ import string
 import threading
 import shelve
 
+
 ser = serial.Serial('/dev/ttyUSB0', 115200, 8, 'N', 1, timeout = 0.1)  # 配置串口
 ser2 = serial.Serial('/dev/ttyUSB2', 9600, 8, 'E', 1, timeout = 0.1)
 if ser2.isOpen() == False:
